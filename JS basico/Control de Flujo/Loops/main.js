@@ -43,3 +43,19 @@ do {
   console.log(condicionDOWhile);
   condicionDOWhile++;
 } while (condicionDOWhile < 10);
+
+//ARRAY
+
+let miArray = [2, "Gaby", true];
+
+//PARA ACCEDER A LOS ELEMENTOS DEL ARRAY
+
+console.log(miArray[1]);
+
+//LONGITUD DEL ARRAY - CANTIDAD DE ELEMENTOS
+
+console.log(miArray.length);
+
+for (let i = 0; i < miArray.length; i++) {
+  console.log(miArray[i]);
+}
